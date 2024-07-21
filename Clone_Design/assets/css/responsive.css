@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #about-us ul {
+        min-width: 100%;
+    }
+
+    .service-item {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="asset/css/style.css" />
+        <link rel="stylesheet" href="asset/css/responsive.css" />
+    </head>
+    <body>
+        <!-- Section Nav -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler mx-auto border-0 fs-3"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-start w-25 bg-dark text-white"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button
+                            type="button"
+                            class="btn-close text-white"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Section banner -->
+        <section id="banner">
+            <div class="container vh-100">
+                <div class="row h-100">
+                    <div class="col-lg-6 banner-img text-lg-left text-center">
+                        <img src="asset/images/banner1.png" alt="" />
+                    </div>
+                    <div class="col-lg-6 vh-100 banner-info my-auto d-lg-flex flex-lg-column justify-content-lg-center">
+                        <div class="banner-info text-white mt-5">
+                            <h1>Salad</h1>
+                            <p class="fw-bold my-4 fs-5">Time to Get Healthy & Active</p>
+                            <p class="fs-5">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section dish -->
+        <section id="dish">
+            <div class="container dish-title">
+                <p class="fw-lighter my-4 fs-2 fw-light text-uppercase">our menu</p>
+                <h1 class="title mb-5">Delicious From The Chef</h1>
+            </div>
+            <div class="container">
+                <div class="row menu-top g-5">
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">PEAR SALAD / $11</h3>
+                        <p class="fs-4 my-4">
+                            Reid’s Orchard Pears / Bitter Greens / Granola / Big Firefly / Farms Black and Blue / Pine
+                            Nut Vinaigrette
+                        </p>
+                    </div>
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">BRODETTO DI PESCE / $9</h3>
+                        <p class="fs-4 my-4">
+                            Adriatic Seafood Soup / Clams / Prawns / Livornese / Langoustine Scallop / Celery / Olive
+                        </p>
+                    </div>
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">FARM GREENS / $9</h3>
+                        <p class="fs-4 my-4">Honey Vinaigrette / House Cheese Crouton / Fine Herbs</p>
+                    </div>
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">GRILLED KALE / $9</h3>
+                        <p class="fs-4 my-4">Bitter Greens / House Cheese Crouton / Kamon Iberico</p>
+                    </div>
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">RICOTTA GNUD / $18</h3>
+                        <p class="fs-4 my-4">
+                            Marinated Sardine / Red Currant / Chanterelles / Pine Nuts / Mantecato Vitello / Fennel /
+                            Olive / Pepitas
+                        </p>
+                    </div>
+                    <div class="col-lg-6 py-4">
+                        <h3 class="fw-lighter">CANESTRELLI / $18</h3>
+                        <p class="fs-4 my-4">
+                            Reid Orchatd Pears / Bitter Greens / House Cheese Crouton / Marinated Sardine / Chanterelles
+                            / Clams
+                        </p>
+                    </div>
+                </div>
+                <div class="row menu-bot g-5 my-5">
+                    <div class="col-xl-6 d-flex flex-lg-nowrap flex-wrap mb-5">
+                        <img src="asset/images/dish1.png" width="40%" alt="" />
+                        <div class="menu-bot-info">
+                            <h3 class="fw-light">CAESAR SALAD</h3>
+                            <p class="price fw-bolder fs-1 my-4">$20</p>
+                            <p class="fs-4">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-flex flex-lg-nowrap flex-wrap mb-5">
+                        <img src="asset/images/dish2.png" width="40%" alt="" />
+                        <div class="menu-bot-info">
+                            <h3 class="fw-light">GREEK SALAD</h3>
+                            <p class="price fw-bolder fs-1 my-4">$45</p>
+                            <p class="fs-4">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-flex flex-lg-nowrap flex-wrap mb-5">
+                        <img src="asset/images/dish3.png" width="40%" alt="" />
+                        <div class="menu-bot-info">
+                            <h3 class="fw-light">MEXICAN SALAD</h3>
+                            <p class="price fw-bolder fs-1 my-4">$13</p>
+                            <p class="fs-4">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-flex flex-lg-nowrap flex-wrap mb-5">
+                        <img src="asset/images/dish4.png" width="40%" alt="" />
+                        <div class="menu-bot-info">
+                            <h3 class="fw-light">CLASSIC RICOTTA</h3>
+                            <p class="price fw-bolder fs-1 my-4">$24</p>
+                            <p class="fs-4">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center fs-4">Image from <a href="" class="text-dark">Tai</a></p>
+            </div>
+        </section>
+
+        <!-- Section banner-mid -->
+        <section id="banner-mid" class="pb-50">
+            <img src="asset/images/banner3.jpeg" alt="" />
+            <div class="container banner-mid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5">
+                        <div class="banner-mid-item p-4">
+                            <h3 class="fw-lighter fs-4">LASAGNIA</h3>
+                            <p class="fw-bolder fs-4 my-3">$20</p>
+                            <p class="fs-5">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="banner-mid-item p-4">
+                            <h3 class="fw-lighter fs-4">CARBONARA</h3>
+                            <p class="fw-bolder fs-4 my-3">$45</p>
+                            <p class="fs-5">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="banner-mid-item p-4">
+                            <h3 class="fw-lighter fs-4">BOLOGNESE</h3>
+                            <p class="fw-bolder fs-4 my-3">$13</p>
+                            <p class="fs-5">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="banner-mid-item p-4">
+                            <h3 class="fw-lighter fs-4">CLASSIC RICOTTA</h3>
+                            <p class="fw-bolder fs-4 my-3">$24</p>
+                            <p class="fs-5">
+                                Sample text. Click to select the text box. Click again or double click to start editing
+                                the text.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section snacks -->
+        <section id="snacks" class="pb-50">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div>
+                            <h1 class="title lh-1">Salads and snacks</h1>
+                            <div class="snacks-line"></div>
+                            <ul class="snacks-list list-unstyled">
+                                <li class="py-2">TACO PIZZA</li>
+                                <li class="py-2">CHICKEN FAJITA</li>
+                                <li class="py-2">BUFFALO CHICKEN</li>
+                                <li class="py-2">PEPPERONI</li>
+                            </ul>
+                            <p class="fs-5">Image from <a href="" class="text-warning">Tai</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <img src="asset/images/4503151.png" alt="" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section banner-bot -->
+
+        <section id="banner-bot" class="d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-5 text-center">
+                        <h1 class="title">100% Organic Goodness</h1>
+                        <p class="fs-5 my-4">
+                            Where we do things differently. 100% organic smoothies and cold pressed juices is our thing.
+                        </p>
+                        <p class="fs-4">Image from <a href="" class="text-warning">Tai</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Rate -->
+        <section id="rate">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0"
+                            class="active bg-secondary-subtle"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1"
+                            class="bg-secondary-subtle"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <img src="asset/images/slide1.jpg" alt="..." />
+                            <div class="carousel-caption d-block text-dark position-static">
+                                <p class="fs-3">
+                                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
+                                    mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id
+                                    metus. Maecenas ex enim,​ mattis eu velit vitae, blandit mattis sapien. Sed aliquam
+                                    leo et semper vestibulum."
+                                </p>
+                                <h3 class="fs-3 fw-lighter my-4 letter-spacing-5">FRANK KINNEY</h3>
+                                <p class="fs-4">Image from <a href="" class="text-dark">Tai</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="asset/images/slide2.jpg" alt="..." />
+                            <div class="carousel-caption d-block text-dark position-static">
+                                <p class="fs-3">
+                                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
+                                    mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id
+                                    metus. Maecenas ex enim,​ mattis eu velit vitae, blandit mattis sapien. Sed aliquam
+                                    leo et semper vestibulum."
+                                </p>
+                                <h3 class="fs-3 fw-lighter my-4 letter-spacing-5">MARY SMITH</h3>
+                                <p class="fs-4">Image from <a href="" class="text-dark">Tai</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev text-dark"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left fs-1"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next text-dark"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right fs-1"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Section subscribe -->
+        <section id="subscribe">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="form-subscribe">
+                            <h1 class="title">Subscribe And Follow Us</h1>
+                            <p class="fs-5 mt-5 mb-4">
+                                Be part of the story and follow us on Twitter via
+                                <a class="text-warning" href="">@Tai</a> and subscribe to the newsletter for news and
+                                updates about our workshops
+                            </p>
+                            <form class="form-group px-2">
+                                <input type="text" class="form-control" placeholder="Email" />
+                                <button class="btn btn-warning form-control">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section footer -->
+        <footer class="text-white">
+            <div class="container">
+                <div class="row justify-content-center text-center fs-5 mb-5">
+                    <div class="col-lg-5">
+                        <p>
+                            Sample text. Click to select the text box. Click again or double click to start editing the
+                            text.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center fs-5 mt-5">
+                    <div class="col-lg-5">
+                        <p>Website Templates created with Website Builder Software.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

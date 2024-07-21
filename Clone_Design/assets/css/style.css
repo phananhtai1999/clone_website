@@ -1,0 +1,183 @@
+:root {
+    --main-color: #fd853d;
+    --second-color: #291569;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.text-second-color {
+    color: var(--second-color);
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+.bg-second-color {
+    background-color: var(--second-color);
+}
+
+.py-60 {
+    padding-block: 60px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler:hover i {
+    color: red;
+}
+
+/* Banner */
+#banner {
+    background: url("../images/banner.jpg") no-repeat center;
+    background-size: cover;
+    height: 90vh;
+}
+
+#carouselBanner .carousel-item {
+    height: 45vh;
+}
+
+.carousel-item .carousel-caption {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.carousel-item .carousel-caption a {
+    text-decoration-color: var(--main-color);
+}
+
+.carousel-item .carousel-caption a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.btn-main {
+    border: 2px solid var(--main-color);
+    padding-inline: 30px;
+    letter-spacing: 3px;
+    padding-block: 10px;
+}
+
+.btn-main:hover {
+    background-color: var(--main-color);
+}
+
+.website-company-line {
+    height: 8px;
+    width: 20%;
+    background-color: var(--main-color);
+    margin-inline: auto;
+}
+
+#features {
+    background-color: #d9d9d9;
+}
+
+.feature-item {
+    border-bottom: 10px solid var(--main-color);
+}
+
+.planning-left i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#award {
+    background-color: #e5e5e5;
+}
+.award-line {
+    height: 10px;
+    width: 7%;
+    background-color: var(--main-color);
+    margin-inline: auto;
+    margin-block: 3rem;
+}
+.award-item {
+    border-bottom: 10px solid var(--main-color);
+}
+.award-item span {
+    font-size: 16px;
+    font-weight: 600 !important;
+}
+
+/*  */
+.service-item {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.service-item:first-child {
+    background: url("../images/our-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.service-item:nth-child(2) {
+    background: url("../images/our-2.jpg") no-repeat center;
+    background-size: cover;
+}
+.service-item:nth-child(3) {
+    background: url("../images/our-3.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.service-info {
+    padding: 20px 30px 20px 25px;
+    color: white;
+}
+
+.line-service {
+    width: 20%;
+    border-bottom: 5px dotted #fff;
+    opacity: 0.7;
+    margin-block: 1rem;
+}
+
+/* Contact us */
+
+.form-contact-us input,
+.form-contact-us textarea {
+    background-color: #e5e5e5;
+}
+
+.form-contact-us button {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    /* font-size: 20px; */
+    letter-spacing: 2px;
+    padding-block: 15px;
+}
+.form-contact-us button:hover {
+    background-color: var(--second-color);
+    color: white;
+}
+
+/*  */
+
+footer {
+    background-color: #333333;
+}
+
+footer a {
+    color: #c3b4f2;
+}
+
+footer a:hover {
+    color: #a1a1a1;
+    text-decoration: none;
+}

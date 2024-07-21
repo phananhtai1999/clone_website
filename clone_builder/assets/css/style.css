@@ -1,0 +1,175 @@
+:root {
+    --main-color: #ffca01;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.px-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fs-90 {
+    font-size: 90px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+/* Header */
+#banner img {
+    max-width: 500px;
+}
+
+#banner .banner-info h1 {
+    font-size: 90px;
+    line-height: 1;
+}
+
+.btn-banner {
+    border: 3px solid #000;
+    padding: 30px 80px;
+}
+
+/* Choose us */
+#choose-us {
+    background-color: #292d33;
+}
+.choose-us-item {
+    min-height: 470px;
+}
+.choose-us-item img {
+    border: 10px solid var(--main-color);
+}
+
+/*  */
+#banner-top-services {
+    background-color: var(--main-color);
+}
+.banner-left {
+    height: 70vh;
+    background: url("../images/banner-2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/*  */
+
+.service-item {
+    border-top: 10px solid var(--main-color);
+}
+
+.service-item img {
+    width: 25px;
+    height: auto;
+}
+
+#our-services {
+    background-color: #f2f2f2;
+}
+
+.our-service-item .img-circle {
+    background-color: var(--main-color);
+    width: 100px;
+    height: 100px;
+}
+.our-service-item a {
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.our-service-item a:hover {
+    border-color: #000;
+}
+
+/* Banner bot services */
+#banner-bot-services {
+    background-color: var(--main-color);
+}
+.banner-bot-right img {
+    max-height: 50vh;
+    object-fit: contain;
+    width: 100%;
+}
+
+.send-us-info button {
+    font-size: 20px;
+    background-color: var(--main-color);
+    padding: 25px 45px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.send-us-info button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.line {
+    height: 1px;
+    background-color: #000;
+    width: 90%;
+    margin: 60px auto;
+    opacity: 0.3;
+}
+
+#professional,
+#footer-top {
+    background-color: #292d33;
+}
+
+/*  */
+.professional-item {
+    background-color: #fff;
+    border-top: 15px solid var(--main-color);
+    padding: 40px 30px;
+}
+
+.read-more {
+    width: 80px;
+    height: 80px;
+    background: url("../images/dot.png") no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.read-more i {
+    font-size: 40px;
+}
+
+.meet-you-left {
+    padding: 50px 80px 50px 60px;
+}
+
+#footer-top {
+    padding-block: 100px;
+}
+
+.email-us input,
+.email-us button {
+    font-size: 20px;
+    padding-block: 20px;
+}
+
+.email-us input:focus {
+    border: none;
+}
+#footer-bot {
+    background-color: #333333;
+}
+
+#footer-bot a {
+    color: #48a3b8;
+}
+
+#footer-bot a:hover {
+    text-decoration: none;
+    color: #777777;
+}

@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+    .banner-img {
+        height: 40%;
+    }
+    .banner-img img {
+        height: 100%;
+    }
+    #banner-bot h1,
+    .form-subscribe h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}

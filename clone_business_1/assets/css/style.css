@@ -1,0 +1,245 @@
+:root {
+    --main-color: #f1c50e;
+    --second-color: #d9b10d;
+    --third-color: #f2f2f2;
+    --main-linear: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.bg-third-color {
+    background-color: var(--third-color);
+}
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.py-60 {
+    padding-block: 60px;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-main {
+    display: inline-block;
+    background-color: var(--main-color);
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-main:hover {
+    background-color: var(--second-color);
+}
+
+.more-main {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 2px solid #999999;
+}
+
+.more-main:hover {
+    color: var(--main-color) !important;
+    border-bottom-color: var(--main-color);
+}
+
+/* Navbar */
+.form-navbar input {
+    width: 60%;
+}
+.form-navbar input::placeholder,
+.banner-right input::placeholder {
+    color: #999999;
+}
+
+.form-navbar input:focus {
+    border-color: #d9d9d9;
+    box-shadow: none;
+}
+.form-navbar button {
+    border: 1px solid #d9d9d9;
+    border-left: 0;
+    background-color: white;
+    border-radius: 0;
+    color: #999999;
+    padding: 5px 10px;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Banner */
+#banner {
+    background: var(--main-linear), url("../images/banner-1.jpeg") no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.banner-right input {
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #f2f2f2;
+    opacity: 0.7;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+}
+
+/* Services */
+.services {
+    transform: translateY(-20%);
+}
+.service-item i {
+    display: inline-block;
+    background-color: #f5d654;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    margin-top: -25px;
+}
+
+/* benefits */
+#benefits {
+    background: var(--main-linear), url("../images/banner-2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*  */
+
+/* Adjust the aspect ratio here, 75% for 4:3, 100% for 1:1 */
+.case-info {
+    width: 100%;
+    padding-top: 62%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.case-info img,
+.case-info .case-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.case-info img {
+    object-fit: cover;
+}
+
+.case-info .case-layout {
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.case-info:hover .case-layout {
+    opacity: 1;
+}
+
+/*  */
+
+.service-item-image {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-item-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* plans */
+#plans {
+    background: var(--main-linear), url("../images/banner-2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.plan-line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.plan-item.active {
+    background-color: var(--main-color) !important;
+    color: white;
+}
+
+.plan-item.active .plan-line {
+    background-color: white;
+}
+
+.plan-item.active button {
+    background-color: white;
+}
+
+.plan-item.active button:hover {
+    background-color: #f2f2f2;
+}
+
+#rate i {
+    font-size: 250px;
+    opacity: 0.1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#call-us {
+    background: var(--main-linear), url("../images/banner-3.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*  */
+#call-us input {
+    padding: 10px;
+}
+#call-us input::placeholder {
+    color: #999999;
+}
+
+.list-socials li a i {
+    background-color: white;
+    color: #151515;
+    display: inline-block;
+    line-height: 40px;
+    /* padding: 10px 12px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Tùy chọn: Tạo biểu tượng hình tròn */
+    mix-blend-mode: screen; /* Chế độ hòa trộn */
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+}
